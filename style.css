@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* sajibkhan.cit.bd@gmail.com */
+body{
+    background-color: #00263b;
+}
+.conntainer{
+
+}
+.conatainerHead{
+    background-color: #094f758c;
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+.input_Area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px 0px;
+}
+.input_Area h1{
+    color: white;
+}
+.erorr1{
+    color: red;
+}
+.erorr2{
+    color: red;
+}
+.input_Area .nm_fleid{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 60%;
+    border-radius: 4px;
+}
+.input_Area .cp_fleid{
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    resize: none;
+    border-radius: 4px;
+}
+.btn_1{
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00263b;
+    color: white;
+    cursor: pointer;
+}
+.btn_2{
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00263b;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.post_box{
+    
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 4px;
+    color: white;
+}
+.editBtnColor{
+    background-color: #094f758c;
+}
+.ed_btn{
+    width: 18%;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.D_btn{
+    width: 18%;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.post_box h3{
+    text-align: center;
+}
+.post_box p{
+    margin: 10px 0px;
+    text-align: justify;
+}
+.playBtnColor{
+    background-color: #b16809;
+}
