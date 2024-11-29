@@ -73,11 +73,8 @@ updateButton.addEventListener("click",()=>{
          erorr1.style .display ="none"
          return
     }else{
-        arr[indexBox]={
-            pname:nm_fleid.value};
-        arr[indexBox]={
-            caption:cp_fleid.value
-        };
+        arr[indexBox].pname=nm_fleid.value;
+        arr[indexBox].caption=cp_fleid.value;
 
         updateButton.style .display="none";
         addPost.style .display="inline-block";
