@@ -1,3 +1,4 @@
+
 let nm_fleid =document.querySelector('.nm_fleid');
 let cp_fleid =document.querySelector('.cp_fleid');
 let addPost=document.querySelector('.btn_1');
@@ -43,6 +44,8 @@ addPost.addEventListener("click",()=>{
          erorr2.innerHTML =""
         post_card.innerHTML ="";
         display()
+   
+        
     }
 
    
@@ -84,6 +87,7 @@ updateButton.addEventListener("click",()=>{
          erorr2.innerHTML =""
         post_card.innerHTML ="";
         display()
+       
     }
 
    
@@ -111,14 +115,19 @@ function display(){
     let arrayEdit = Array.from(editButton);
     arrayEdit.map((items ,index)=>{
         items.addEventListener("click",()=>{
-            nm_fleid.value=arr[index].pname;
-            cp_fleid.value=arr[index].caption;
-
-            post_card.innerHTML="";
-            updateButton.style .display="inline-block";
-            addPost.style .display="none";
             indexBox=index
-            display();
+            if(items.innerHTML =="Edit"){
+                nm_fleid.value=arr[index].pname;
+                cp_fleid.value=arr[index].caption;
+
+                post_card.innerHTML="";
+                updateButton.style .display="inline-block";
+                addPost.style .display="none";
+                display();
+            }else{
+                alert("!!! Upcoming number gessing Game ")
+            }
+            
         })
     })
 
