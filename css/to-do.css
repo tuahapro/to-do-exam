@@ -1,3 +1,4 @@
+/* ========== Common CSS Start========= */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,17 @@
 
 body{
     background-color: #00263b;
+    
+     
+}
+ /* ========== Common CSS End========= */
+
+ /* ========== All Input Area CSS Start========= */
+.containerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 .conatainerHead{
     background-color: #094f758c;
@@ -12,6 +24,8 @@ body{
     padding: 20px;
     margin: 50px auto;
     border-radius: 10px;
+    position: relative;
+    
 
 }
 .input_Area{
@@ -46,6 +60,9 @@ body{
     resize: none;
     border-radius: 4px;
 }
+ /* ========== All Input Area CSS End========= */
+
+ /* ========== All Button CSS Start ========= */
 .btn_1{
     width: 40%;
     padding: 10px;
@@ -66,18 +83,6 @@ body{
     color: white;
     cursor: pointer;
     display: none;
-}
-
-.post_box{
-    
-    width: 500px;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 4px;
-    color: white;
-}
-.editBtnColor{
-    background-color: #094f758c;
 }
 .ed_btn{
     width: 18%;
@@ -100,6 +105,23 @@ body{
     cursor: pointer;
     border-radius: 4px;
 }
+
+ /* ========== All Button CSS End ========= */
+
+
+ /* ========== All Post CSS Start ========= */
+.post_box{
+    
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 4px;
+    color: white;
+}
+.editBtnColor{
+    background-color: #094f758c;
+}
+
 .post_box h3{
     text-align: center;
 }
@@ -110,3 +132,5 @@ body{
 .playBtnColor{
     background-color: #b16809;
 }
+ /* ========== All Post CSS End ========= */
+

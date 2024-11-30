@@ -1,0 +1,129 @@
+/*========= player One CSS Start==== */
+.gameTop{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left:407px;
+}
+.game_area{
+    margin: 50px auto;
+    border-radius: 10px;
+    
+   
+} 
+
+.playerOne{
+    width: 545px;
+    height:309px;
+    background-color: #adbada;
+    border-radius: 5px; 
+    
+}
+.heading{
+    text-align: center;
+    padding: 30px 0px;
+}
+.inputOne{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.Btn_1{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    border: 2px solid #c7d1eb81;
+    border-radius: 3px;
+    padding: 5px 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.erorrMg{
+   text-align: center;
+    margin-top: 4px;
+   font-size: 15px;
+   color: red;
+}
+
+/*========= player One CSS End==== */
+
+
+/*========= player Two CSS Start==== */
+
+.playerTwo{
+    display: none;
+    width: 545px;
+    height:309px;
+    background-color: #adbada;
+    border-radius: 5px;    
+}
+.PR_Two{
+    text-align: center;
+    padding-top: 30px;
+   
+}
+.PR_chance{
+    text-align: center;
+    padding: 10px 0px;
+   
+}
+.inputTwo{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.erorrMg1{
+    text-align: center;
+    margin-top: 4px;
+   font-size: 15px;
+   color: red;
+}
+
+.Btn_2{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    border: 2px solid #c7d1eb81;
+    border-radius: 3px;
+    padding: 5px 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.Btn_3{
+    display: none;
+    width: 21%;
+    margin: 30px 0px 0px 91px;;
+    outline: none;
+    border: 2px solid #c7d1eb81;
+    border-radius: 3px;
+    padding: 5px 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+   
+
+}
+.fa-arrow-right{
+    font-size: 15px;
+    color:black;
+}
+/*========= player Two CSS End==== */

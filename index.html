@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-app</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/to-do.css">
 </head>
 <body>
-    <div class="conntainer">
-        
+    <!-- ========= Input Area Start ======== -->
+
+    <div class="conntainer"> 
+      <div class="containerTop">
         <div class="conatainerHead">
             <div class="input_Area">
                 <h1>To-Do-App</h1>
@@ -18,15 +22,53 @@
                 <span class="erorr2"></span>
                 <button class="btn_1">Post</button>
                 <button class="btn_2">Update</button>
+               
             </div>
         </div>
+      </div>
     </div>
+
+    <!-- ========= Input Area End ======== -->
+
+    <!-- ========= Game Area Start ======== -->
+
+     <!-- player two -->
+
+    <div class="gameTop">
+        <div class="game_area">
+            <div class="playerOne">
+                <h1 class="heading">Player One</h1>
+                <input type="password" class="inputOne">
+                <p class="erorrMg"></p>
+                <button class="Btn_1">Start</button>
+            </div>
+    
+            <!-- player two -->
+
+            <div class="playerTwo">
+                <h1 class="PR_Two">Player Two</h1>
+                <h3 class="PR_chance"></h3>
+                <input type="text" class="inputTwo">
+                <p class="erorrMg1"></p>
+                <button class="Btn_2">check</button>
+                <button class="Btn_3">Go Back <i class="fa-solid fa-arrow-right"></i></button>
+        
+            </div>
+        </div>
+       </div>
+
+     <!-- ========= Game Area End ======== -->
+
+       <!-- ========= Post Area Start ======== -->   
     <div class="container">
         <div class="post_card">
             
         </div>
     </div>
-    
-    <script src="script.js"></script>
+     <!-- ========= Post Area End ======== -->
+ 
+      
+    <script src="srcipt.js"></script>
+  
 </body>
 </html>
