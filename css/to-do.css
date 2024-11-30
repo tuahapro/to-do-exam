@@ -6,25 +6,27 @@
 
 body{
     background-color: #00263b;
+ 
+}
+.container{
+    width: 1140px;
+    height: auto ;
+    margin: auto;
+    display: flex;
+  
     
-     
 }
  /* ========== Common CSS End========= */
 
  /* ========== All Input Area CSS Start========= */
-.containerTop{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
+
 .conatainerHead{
     background-color: #094f758c;
     width: 500px;
-    padding: 20px;
-    margin: 50px auto;
+    padding: 20px; 
+    margin: 50px 0px;
     border-radius: 10px;
-    position: relative;
+    
     
 
 }
@@ -110,13 +112,19 @@ body{
 
 
  /* ========== All Post CSS Start ========= */
-.post_box{
-    
-    width: 500px;
+.post_card{
+    display: flex;
+    column-gap:30px;
+    flex-wrap:wrap ;
+}
+ .post_box{
+    width: 320px;
+    height: auto;
     padding: 20px;
-    margin: 20px auto;
+    margin-top: 30px;
     border-radius: 4px;
     color: white;
+   
 }
 .editBtnColor{
     background-color: #094f758c;

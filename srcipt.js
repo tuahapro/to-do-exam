@@ -106,7 +106,8 @@ updateButton.addEventListener("click",()=>{
 // ======Display Function javascript Start====
 
 function display(){
-    arr.map((post)=>{
+   
+  arr.map((post)=>{
         post_card.innerHTML +=`<div class='post_box ${(isNaN(post.caption))?"editBtnColor":"playBtnColor"} '>
                     <h3>${post.pname}</h3>
                     <p>${post.caption}</p>

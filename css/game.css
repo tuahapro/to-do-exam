@@ -1,23 +1,20 @@
 /*========= player One CSS Start==== */
 .gameTop{
     display: none;
-    justify-content: center;
-    position: absolute;
-    top: 0px;
-    left:407px;
-}
-.game_area{
-    margin: 50px auto;
-    border-radius: 10px;
     
-   
-} 
+    width: 500px;
+    height: 300px;
+    margin:50px ;
+
+}
+
 
 .playerOne{
-    width: 545px;
+
+    width: 501px;
     height:309px;
     background-color: #adbada;
-    border-radius: 5px; 
+    border-radius: 10px; 
     
 }
 .heading{
@@ -62,10 +59,10 @@
 
 .playerTwo{
     display: none;
-    width: 545px;
+    width: 501px;
     height:309px;
     background-color: #adbada;
-    border-radius: 5px;    
+    border-radius: 10px;    
 }
 .PR_Two{
     text-align: center;
